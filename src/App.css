@@ -8,7 +8,6 @@ body {
   font-family: Arial;
   font-weight: 400;
   font-style: normal;
-  background: linear-gradient(to left, #ffe1d1, #ffdbca);
   background: url(./images/bg2.png) no-repeat;
   background-size: cover;
 }
