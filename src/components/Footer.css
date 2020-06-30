@@ -1,0 +1,20 @@
+.footer {
+  height: 10vh;
+  display: flex;
+}
+
+.footer-letter {
+  margin: auto;
+}
+
+.footer-letter > a {
+  font-size: 0.7em;
+  text-decoration: none;
+  color: #4b423d;
+}
+
+.footer-letter > a:hover {
+  transition: 0.2s;
+  color: #ff7676;
+  border-bottom: 2px solid #f8d1be;
+}

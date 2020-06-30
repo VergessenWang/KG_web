@@ -1,47 +1,54 @@
 .container {
-    margin:1em 2em;
-    background-color: #fff;
-    height: 60em;
-    border-radius: 25px;
-    box-shadow:  0px 0px 10px 5px rgba(50,50,50,0.9);
-    background-image: linear-gradient(to bottom right,rgb(250,128,114),rgb(135,206,250));
-    display: flex;
-    justify-content: center;
+  margin: 0 2em;
+  background-color: #fff;
+  height: 80vh;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px 5px rgba(50, 50, 50, 0.9);
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(250, 128, 114),
+    rgb(135, 206, 250)
+  );
+  display: flex;
+  justify-content: center;
 }
 
 .introduce-box {
-    margin: auto;
-    width: 100%;
-    background-color: rgba(0,0,139,0.1);
-    padding:30px;
-    /* border:3px dashed rgba(106,90,205, 0.4); */
-    border-left: 0px;
-    border-right: 0px;
-    text-align: center;
+  margin: auto;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  /* border:3px dashed rgba(106,90,205, 0.4); */
+  border-left: 0px;
+  border-right: 0px;
+  text-align: center;
 }
 
-.introduce-box>h3 {
-    font-size: 30px;
+.introduce-box > h3 {
+  font-size: 1.5em;
+  color: #4c4e5b;
 }
 
-.introduce-box>p {
-    font-size: 25px;
-    margin: 1em;
+.introduce-box > p {
+  font-size: 0.82em;
+  margin: 1em;
+  color: #4c4e5b;
 }
 
 .btn-primary {
-    display: inline-block;
-    text-decoration: none;
-    letter-spacing: 3px;
-    color: #222;
-    background:#6A5ACD;
-    padding: 0.4rem 0.9rem;
-    border: 3px solid #6A5ACD;
-    transition: all 0.3s linear;
-    text-transform: uppercase;
-    cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: #222;
+  background: #6a5acd;
+  padding: 0.4rem 0.9rem;
+  border: 3px solid #6a5acd;
+  transition: all 0.3s linear;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 0.8;
 }
 .btn-primary:hover {
-background: transparent;
-color:#6A5ACD;
+  background: transparent;
+  color: #6a5acd;
 }

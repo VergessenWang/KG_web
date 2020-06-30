@@ -1,0 +1,58 @@
+.introduce {
+  /* overflow: hidden; */
+  position: relative;
+}
+
+.wordCloud {
+  /* border: 2px solid red; */
+  height: 80%;
+  width: 800px;
+}
+
+.refresh {
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #4b423d;
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+  transform: translatex(-50%);
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.25);
+  display: block;
+  padding: 1em;
+}
+
+.refresh:hover {
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  z-index: 1;
+  animation: glow 8s linear infinite;
+  opacity: 0.8;
+}
+.refresh::before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  border-radius: 50px;
+  filter: blur(20px);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.refresh:hover:before {
+  opacity: 1;
+  z-index: -1;
+}
+
+@keyframes glow {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
