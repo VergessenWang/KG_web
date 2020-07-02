@@ -1,0 +1,20 @@
+.search {
+  height: 10%;
+  border: 2px solid red;
+
+  text-align: center;
+  padding: 1em 1em;
+
+  display: flex;
+  justify-content: center;
+}
+
+.searchLogo {
+  background: blueviolet;
+  width: inherit;
+}
+.inputBox,
+.btn {
+  border: none;
+  outline: none;
+}

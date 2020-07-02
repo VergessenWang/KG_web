@@ -38,6 +38,7 @@ export default class Introduce extends Component {
             right: null,
             bottom: null,
             textStyle: {
+              fontFamily: "Microsoft YaHei",
               normal: {
                 color: function () {
                   return (
