@@ -66,7 +66,7 @@ export default class Introduce extends Component {
   };
 
   componentDidMount() {
-    // this.initIntroduceChart();
+    this.initIntroduceChart();
   }
 
   render() {
