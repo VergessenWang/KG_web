@@ -4,7 +4,7 @@ import echarts from "echarts";
 import "echarts-wordcloud";
 import { getKnowledgeData } from "../requests/Request";
 import { CompassOutlined } from "@ant-design/icons";
-// import { Input } from "antd";
+import { Input } from "antd";
 //import "../fonts/font-awesome.min.css";
 
 export default class Knowledge extends Component {
@@ -101,21 +101,13 @@ export default class Knowledge extends Component {
   render() {
     return (
       <div className="container">
-        <form action="">
-          <div className="search">
-            <CompassOutlined className="searchLogo" style={{ color: "#fff" }} />
-            <input
-              className="inputBox"
-              type="text"
-              name=""
-              value=""
-              placeholder="请输入关键字"
-            ></input>
-            <button class="btn" type="button" name="buttom">
-              搜索
-            </button>
-          </div>
-        </form>
+        <Input.Search
+          className="search"
+          placeholder="请输入关键字"
+          onSearch={this.onSearchClick}
+          enterButton="Search"
+          size="large"
+        />
         <div id="knowledge" ref={this.relationAmount} />
       </div>
     );

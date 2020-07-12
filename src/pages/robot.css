@@ -1,0 +1,55 @@
+.left {
+  margin: auto;
+}
+
+.text {
+  border-radius: 8px;
+  width: 20vw;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 1vh;
+}
+
+.click {
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+}
+
+.cut {
+  overflow: hidden;
+  /* border: 3px solid red; */
+  height: 50vh;
+  margin-top: 1vh;
+  width: 20vw;
+  font-family: "Microsoft YaHei";
+  font-size: 0.8rem;
+}
+
+.cut p {
+  padding: 0.5rem;
+}
+
+.cut hr {
+  width: 80%;
+  margin: 0 auto;
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(255, 255, 255, 0.5),
+    rgba(0, 0, 0, 0)
+  );
+}
+.ant-tag {
+  border-radius: 5px;
+  padding: 0.2rem;
+}
+
+.graph {
+  width: 70%;
+  height: 100%;
+  /* border: 3px solid red; */
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0 25px 25px 0;
+}
