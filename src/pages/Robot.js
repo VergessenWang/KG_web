@@ -161,9 +161,7 @@ export default class Robot extends Component {
           </div>
         </div>
 
-        <div className="graph" ref={this.graph}>
-          {/* <Skeleton active loading={this.state.loading} /> */}
-        </div>
+        <div className="graph" ref={this.graph}></div>
       </div>
     );
   }
